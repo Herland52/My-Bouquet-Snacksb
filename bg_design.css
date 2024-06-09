@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.banner{
+    background-image: url(picture/banner_pict1.jpg);
+    color: #fcfcfc;
+    height: 500px;
+    text-align: center;
+}
+.banner img{
+    height: 70px;
+    padding-top: 20px;
+    float: left;
+    padding-left: 50px;
+}
+.nav ul li {
+    list-style: none;
+}
+.nav ul li a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+    float: right;
+    padding-top: 10px;
+    background-color: yellow;
+    line-height:20px;
+    width: 100px;
+    border-radius: 200px;
+}
+.nav h1{
+    padding-top:200px;
+    text-align:center;
+}
+.nav ul li a:hover{
+    color:black;
+    font-style: italic;
+}
+.box{
+    background-color: aquamarine;
+    padding-top: 100px;
+    width:800px;
+    height:400px;
+    margin:0 auto;
+    border-radius:15px;
+}
+.box img{
+    display: inline-block;
+    padding-left: 70px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    padding-left: 39%;
+    filter:drop-shadow(10px 7px 10px purple);
+}
+.box p{
+    font-size:20px;
+    font-weight: bold;
+    text-align:center;
+    padding-top:40px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom: 100px;
+} 
+.footer{
+    background-color:purple;
+    width: 100%;
+    height: 100px;
+}
+.footer marquee{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding-top: 50px;
+    display: inline-block;
+}
